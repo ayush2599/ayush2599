@@ -1,0 +1,56 @@
+# Edit this file, then run: python scripts/update-readme.py
+name: Ayush Karn
+github_username: ayush2599
+headline: Developer · Solutions Architect · Data Engineer
+status: OPEN TO GOOD PROBLEMS
+
+about: >-
+  I build software, design systems, connect things that were never designed to
+  talk to each other, and occasionally convince data to behave.
+
+  My work sits where application development, cloud architecture, data
+  engineering, and enterprise integration meet. I enjoy problems where the
+  answer is not only “write some code,” but first figuring out how the whole
+  system should fit together.
+
+current_focus:
+  - Local-first AI and useful developer tools
+  - Reliable cloud and integration architecture
+  - Data platforms, metadata, lineage, and observability
+
+currently_building:
+  - name: Architecture notebook
+    purpose: Reusable patterns and decision records for systems that need to last
+    state: shipping notes
+  - name: Local AI experiments
+    purpose: Small, private-by-default tools that make everyday work faster
+    state: exploring
+  - name: Data reliability toolkit
+    purpose: Practical checks around pipelines, contracts, metadata, and lineage
+    state: designing
+
+capabilities:
+  Build: Python · TypeScript · JavaScript · APIs · backend services · automation
+  Architect: Cloud systems · distributed systems · solution design · integration patterns · security-minded design
+  Data: SQL · ETL/ELT · lakehouse patterns · data modelling · metadata · lineage · observability
+  Operate: CI/CD · containers · GitHub Actions · monitoring · reliability · technical documentation
+
+outside_the_terminal: >-
+  I like the part of making things that does not fit neatly into a ticket:
+  visual experiments, thoughtful writing, and collecting ideas from outside
+  software. Selected work will appear here as it becomes ready to share.
+
+links:
+  GitHub: https://github.com/ayush2599
+  LinkedIn: https://www.linkedin.com/in/ayush-karn25/
+  Email: mailto:ayush.karn25@gmail.com
+
+# One is selected deterministically each day by the update workflow.
+jokes:
+  - "There are only two hard things in Computer Science: cache invalidation, naming things, and off-by-one errors."
+  - "It works on my machine. So we are shipping my machine."
+  - "A SQL query walks into a bar, approaches two tables, and asks: may I join you?"
+  - "The best architecture diagram is the one production still agrees with."
+
+wakatime:
+  enabled: false

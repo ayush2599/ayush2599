@@ -1,0 +1,74 @@
+name: Update profile
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "17 3 * * *"
+  push:
+    branches: [main]
+    paths:
+      - "data/profile.yml"
+      - "scripts/update-readme.py"
+      - "requirements.txt"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-profile
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    env:
+      WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }}
+    steps:
+      - name: Check out profile repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Install renderer
+        run: pip install -r requirements.txt
+
+      - name: Render editable profile content
+        run: python scripts/update-readme.py
+
+      - name: Commit rendered changes
+        shell: bash
+        run: |
+          if git diff --quiet; then
+            echo "No rendered changes."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add README.md assets/hero.svg
+          git commit -m "chore: refresh profile content"
+          git push
+
+      - name: Add recent public GitHub activity
+        uses: jamesgeorge007/github-activity-readme@master
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          GH_USERNAME: ${{ github.repository_owner }}
+          MAX_LINES: 5
+          COMMIT_MSG: "chore: refresh recent activity"
+
+      - name: Add optional WakaTime summary
+        if: env.WAKATIME_API_KEY != ''
+        uses: athul/waka-readme@master
+        with:
+          WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }}
+          SHOW_TITLE: false
+          SECTION_NAME: waka
+          TIME_RANGE: last_7_days
+          LANG_COUNT: 6
+          BLOCKS: "░▒▓█"
