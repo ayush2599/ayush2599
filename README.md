@@ -48,7 +48,11 @@ _This section fills itself after the “Update profile” Action runs._
 Add a `WAKATIME_API_KEY` repository secret to turn this on. If you do not use WakaTime, leave it exactly as it is.
 
 <!--START_SECTION:waka-->
-_WakaTime is optional and currently switched off._
+
+```txt
+No activity tracked
+```
+
 <!--END_SECTION:waka-->
 
 </details>
