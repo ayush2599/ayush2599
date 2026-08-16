@@ -50,7 +50,12 @@ Add a `WAKATIME_API_KEY` repository secret to turn this on. If you do not use Wa
 <!--START_SECTION:waka-->
 
 ```txt
-No activity tracked
+TypeScript    1 hr                  █████████▒░░░░░░░░░░░░░░░   37.56 %
+Markdown      32 mins               █████░░░░░░░░░░░░░░░░░░░░   20.14 %
+Image (svg)   31 mins               █████░░░░░░░░░░░░░░░░░░░░   19.82 %
+CSS           19 mins               ███░░░░░░░░░░░░░░░░░░░░░░   12.37 %
+JavaScript    4 mins                ▓░░░░░░░░░░░░░░░░░░░░░░░░   02.83 %
+YAML          3 mins                ▓░░░░░░░░░░░░░░░░░░░░░░░░   02.32 %
 ```
 
 <!--END_SECTION:waka-->
