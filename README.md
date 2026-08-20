@@ -79,7 +79,7 @@ I like the part of making things that does not fit neatly into a ticket: visual 
 ---
 
 <!-- profile:joke:start -->
-> “The best architecture diagram is the one production still agrees with.”
+> “There are only two hard things in Computer Science: cache invalidation, naming things, and off-by-one errors.”
 <!-- profile:joke:end -->
 
 <!-- profile:links:start -->
