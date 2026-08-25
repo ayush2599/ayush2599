@@ -50,12 +50,12 @@ Add a `WAKATIME_API_KEY` repository secret to turn this on. If you do not use Wa
 <!--START_SECTION:waka-->
 
 ```txt
-Python       1 hr 48 mins          ████████▓░░░░░░░░░░░░░░░░   34.64 %
-Git Config   49 mins               ████░░░░░░░░░░░░░░░░░░░░░   15.76 %
-JavaScript   38 mins               ███░░░░░░░░░░░░░░░░░░░░░░   12.25 %
-CSS          35 mins               ██▓░░░░░░░░░░░░░░░░░░░░░░   11.15 %
-Markdown     31 mins               ██▓░░░░░░░░░░░░░░░░░░░░░░   10.02 %
-TypeScript   24 mins               ██░░░░░░░░░░░░░░░░░░░░░░░   07.66 %
+Python       1 hr 48 mins          ██████████▒░░░░░░░░░░░░░░   41.72 %
+Git Config   49 mins               ████▓░░░░░░░░░░░░░░░░░░░░   18.99 %
+CSS          35 mins               ███▒░░░░░░░░░░░░░░░░░░░░░   13.43 %
+TypeScript   24 mins               ██▒░░░░░░░░░░░░░░░░░░░░░░   09.22 %
+Markdown     19 mins               ██░░░░░░░░░░░░░░░░░░░░░░░   07.57 %
+Kotlin       16 mins               █▓░░░░░░░░░░░░░░░░░░░░░░░   06.50 %
 ```
 
 <!--END_SECTION:waka-->
