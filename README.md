@@ -79,7 +79,7 @@ I like the part of making things that does not fit neatly into a ticket: visual 
 ---
 
 <!-- profile:joke:start -->
-> “It works on my machine. So we are shipping my machine.”
+> “A SQL query walks into a bar, approaches two tables, and asks: may I join you?”
 <!-- profile:joke:end -->
 
 <!-- profile:links:start -->
