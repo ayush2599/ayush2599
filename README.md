@@ -50,12 +50,7 @@ Add a `WAKATIME_API_KEY` repository secret to turn this on. If you do not use Wa
 <!--START_SECTION:waka-->
 
 ```txt
-Python       1 hr 31 mins          ██████████▓░░░░░░░░░░░░░░   43.12 %
-Git Config   49 mins               ██████░░░░░░░░░░░░░░░░░░░   23.40 %
-Markdown     19 mins               ██▒░░░░░░░░░░░░░░░░░░░░░░   09.33 %
-Kotlin       16 mins               ██░░░░░░░░░░░░░░░░░░░░░░░   08.01 %
-TypeScript   13 mins               █▓░░░░░░░░░░░░░░░░░░░░░░░   06.60 %
-CSS          13 mins               █▓░░░░░░░░░░░░░░░░░░░░░░░   06.38 %
+No activity tracked
 ```
 
 <!--END_SECTION:waka-->
