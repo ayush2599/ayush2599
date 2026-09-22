@@ -74,7 +74,7 @@ I like the part of making things that does not fit neatly into a ticket: visual 
 ---
 
 <!-- profile:joke:start -->
-> “There are only two hard things in Computer Science: cache invalidation, naming things, and off-by-one errors.”
+> “It works on my machine. So we are shipping my machine.”
 <!-- profile:joke:end -->
 
 <!-- profile:links:start -->
