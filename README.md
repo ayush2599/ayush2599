@@ -74,7 +74,7 @@ I like the part of making things that does not fit neatly into a ticket: visual 
 ---
 
 <!-- profile:joke:start -->
-> “A SQL query walks into a bar, approaches two tables, and asks: may I join you?”
+> “The best architecture diagram is the one production still agrees with.”
 <!-- profile:joke:end -->
 
 <!-- profile:links:start -->
